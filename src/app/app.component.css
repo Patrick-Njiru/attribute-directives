@@ -38,13 +38,13 @@ h2 {
     box-shadow: 6px 8px 5px -1px rgb(155, 151, 151);
 }
 .btn:hover, .clear:hover {
-    box-shadow: 6px 8px 3px -1px rgb(108, 99, 99);
-    border: 2.5px inset rgb(59, 58, 58);
+    border: 2.5px outset rgb(59, 58, 58);
 }
 p {
     width: 18px;
-    margin: 20px 25px;
-    font-weight: 600
+    margin: 20px 22px;
+    padding: 5px;
+    font-weight: 600;
 }
 .numbers {
     display: flex;
@@ -53,8 +53,8 @@ p {
 }
 .active-btn {
     background-color: darkblue;
-    box-shadow: 6px 8px 1px -1px rgb(108, 99, 99);
-    border: 3px ridge rgb(59, 58, 58);
+    box-shadow: 0 0 0;
+    border: 1px ridge rgb(59, 58, 58);
 
 }
 .btns-clicked {

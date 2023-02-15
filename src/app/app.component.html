@@ -21,7 +21,14 @@
   </div>
   <div class="right">
     <div class="numbers" >
-      <p *ngFor="let number of numbers" [ngStyle]="{ color: chosenNumbers.includes(number) ? 'red' : 'black'}"> {{number}} </p>
+      <p 
+        *ngFor="let number of numbers" 
+        [ngStyle]="{ 
+          color: chosenNumbers.includes(number) ? 'red' : 'black',
+          backgroundColor : chosenNumbers.includes(number) ? 'lightgrey' : 'white'
+        }"> 
+        {{number}} 
+      </p>
     </div>
   </div>
 
